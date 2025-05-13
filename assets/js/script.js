@@ -193,17 +193,12 @@ document.addEventListener('DOMContentLoaded', function () {
                 navLink.classList.add(
                     'active'
                 );
-                navLink.classList.remove(
-                    ''
-                );
+
             } else {
                 navLink.classList.remove(
                     'active'
                 );
-                navLink.classList.add(
-                    '',
 
-                );
             }
         });
     }, observerOptions);
